@@ -36,7 +36,7 @@ function Slide({ytsApi}){
             {loading ? <Loading /> : 
                 <div className={styles.slide__show}>
                     <div className={styles.slide} style={{
-                        transform: 'translateX(${trans}px)'
+                        transform: `translateX(${trans}px)`
                     }}>
                         {movies.map((movie) => (
                             <Movie

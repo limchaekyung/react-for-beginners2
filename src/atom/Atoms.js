@@ -1,7 +1,7 @@
 import {atom} from "recoil"
 
 const listPageReLoading = atom({
-    key: 'listPageReLoading', //
+    key: 'listPageReLoading',
     default: false,
 });
 
