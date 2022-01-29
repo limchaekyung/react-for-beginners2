@@ -7,13 +7,7 @@ import Detail from "./router/Detail";
 import Home from "./router/Home";
 import List from "./router/List";
 import Nav from "./components/Nav"
-import {
-  RecoilRoot,
-  atom,
-  selector,
-  useRecoilState,
-  useRecoilValue,
-} from 'recoil';
+import { RecoilRoot } from 'recoil';
 
 function App() {
   return (
@@ -31,6 +25,5 @@ function App() {
 }
 
 export default App;
-
 
 /* ProgressEvent.env.PUBLIC_URL : public의 절대경로  */
